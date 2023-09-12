@@ -15,7 +15,7 @@ pytorch==1.7.0+cu110
 logging==0.5.1.2
 psutil==5.7.2
 
-#Input features
+# Input features
 1.	content_id
 2.	answered_correctly
 3.	part
@@ -26,7 +26,7 @@ psutil==5.7.2
 8.	lag_time3 - convert time to days. if lag_time3 >= 365 than 365 (one year).
 I found lag time split to different time format boosting score around 0.003.
 
-#Transformer model
+# Transformer model
 1. Encoder Input
 •	question embedding
 •	part embedding
